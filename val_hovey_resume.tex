@@ -1,6 +1,6 @@
 %-------------------------
 % Resume in Latex
-% Author : Kyle Hovey
+% Author : Val Hovey
 % Template Creator : Sourabh Bajaj
 % License : MIT
 %------------------------
@@ -76,8 +76,8 @@
 
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-	\textbf{\href{http://kylehovey.github.io}{\Large Kyle Hovey}} & Email : \href{mailto:khoveyc@gmail.com}{khoveyc@gmail.com}\\
-	\href{http://kylehovey.github.io}{kylehovey.github.io} & Mobile : +1-209-768-7550 \\
+	\textbf{\href{http://valhovey.github.io}{\Large Val Hovey}} & Email : \href{mailto:khoveyc@gmail.com}{khoveyc@gmail.com}\\
+	\href{http://valhovey.github.io}{valhovey.github.io} & Mobile : +1-209-768-7550 \\
 \end{tabular*}
 
 
@@ -98,8 +98,24 @@
   \resumeSubHeadingListStart
 
     \resumeSubheading
+      {Mercury Technologies}{San Francisco, CA}
+      {Senior Software Engineer II (IC4)}{May 2023 -- Present}
+      \resumeItemListStart
+      \resumeItem{Automatic Receipts Matching}
+      {Authored spec and implemented automatic receipts matching at Mercury, used by thousands of orgs and over \$100M in transactions with an average match rate of 90\%}
+      \resumeItem{Departments}
+      {Authored spec and built BE framework for Departments abstraction in collaboration between multiple teams}
+      \resumeItem{Automatic Categorization}
+      {Authored spec and implemented automatic category to GL code mapping with third party syncing used by thousands of organizations}
+      \resumeItem{Transaction Enrichment}
+      {Implemented transaction categorization and enrichment backends}
+      \resumeItem{Mentorship}
+      {Collaborated on technical interview rubrics and mentored new hires on Haskell}
+      \resumeItemListEnd
+
+    \resumeSubheading
       {Brilliant Worldwide}{San Francisco, CA}
-      {Senior Software Engineer}{Oct 2021 -- Present}
+      {Senior Software Engineer}{Oct 2021 -- May 2023}
       \resumeItemListStart
       \resumeItem{Web Platform and Infrastructure - Tech Lead}
       {Served as Tech Lead on an ambitious project to rewrite Brilliant's frontend codebase with React/GraphQL/NextJS.}
@@ -131,24 +147,8 @@
         {Created a system using Node$+$Express for mass-submitting tickets for new parts to be added to our in-house Altium Database and verified by librarians.}
         \resumeItem{CAN Data Graphing Utility}
         {Created a application for generating and sharing graphs of terabytes of data accrued in the AMPED battery life extension project.}
-      \resumeItem{Graphic Design}
-        {Designed all the banners and window decals around our facilities in Logan, UT. Utilized a unified color palette for all the facets of our organization.}
-      \resumeItemListEnd
-
-    \resumeSubheading
-      {USU GAS Lab}{Logan, UT}
-      {Volunteer Software Engineer}{Apr 2017 -- Dec 2018}
-      \resumeItemListStart
-      \resumeItem{Cubium Software Project}
-      {A volunteer of the Get-Away-Special small-satellite program at Utah State University. Developed open source subscription-based plug and play software for small satellite application as well as new hardware that will empower individuals to deploy experiments on a budget.}
-      \resumeItemListEnd
-
-    \resumeSubheading
-      {West Coast Astronomical Society}{Santa Margarita, CA}
-      {Head of Mechatronics}{Jun 2014 -- Jan 2015}
-      \resumeItemListStart
-        \resumeItem{Telescope Automation}
-        {Took charge of automating the hardware of a Meade 10`` telescope to more accurately detect the positions of binary star systems.}
+        \resumeItem{Battery Embedded Development}
+        {Contributed to battery firmware updates to publish sensor data on a CAN bus}
       \resumeItemListEnd
 
   \resumeSubHeadingListEnd
@@ -170,12 +170,14 @@
   \resumeSubHeadingListStart
     \resumeSubItem{8-Bit Spaghetti}
     {Designed and built 8-bit processor using TTL. Helped many students around the world build versions of the design.}
+    \resumeSubItem{AQI IoT Devices}
+    {Developed multiple air quality IoT devices including a portable MQTT enabled PM2.5/CO2/NOX/VOC/Temp/Humidity device on ESP32}
+    \resumeSubItem{RGB Fairy Lights}
+    {Developed and built individually addressable RGB fairy lights controllable over Home Assistant via MQTT}
     \resumeSubItem{Dream Cloak LED Display}
     {Designed and built a 15x30 24-bit wearable RGB LED display and a web app to control it wirelessly, all in five days.}
     \resumeSubItem{Automata Research}
     {Developed novel approach to classifying all Life-Like Cellular Automata by a similarity metric.}
-    \resumeSubItem{Health Research}
-    {Designed and built personal health analysis applications (ECG/Apple Health) for insight and knowledge into their own health.}
   \resumeSubHeadingListEnd
 
 
@@ -183,13 +185,10 @@
 \section{Technical Skills}
   \resumeSubHeadingListStart
     \item{
-      \textbf{Languages}{: TS/JS, CSS/Sass, Python, C++, Swift, Kotlin, Ruby, Julia, Go, SQL, Elm, Haskell, LISP, Bash, LaTeX}
+        \textbf{Languages}{: Haskell, C++20, Python, Typescript, Ruby, SQL, Bash, LaTeX}
     }
     \item{
-      \textbf{Technologies}{: React, NextJS, GraphQL, Svelte, Node.js, Rails, Django, Numpy, Postgres, WebSocket}
-    }
-    \item{
-      \textbf{Operating Systems}{: MacOS, Arch, Ubuntu/Debian, CentOS, Windows}
+        \textbf{Technologies}{: Postgres, Yesod, NextJS, Node, React, Svelte, Arduino, ESP32}
     }
   \resumeSubHeadingListEnd
 

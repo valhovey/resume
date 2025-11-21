@@ -1,3 +1,3 @@
 ### Resume
 
-![Resume Screenshot](/kyle_hovey_resume.png)
+![Resume Screenshot](/val_hovey_resume.png)
